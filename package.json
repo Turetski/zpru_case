@@ -1,0 +1,23 @@
+{
+  "name": "zpru_case",
+  "version": "0.0.1",
+  "description": "test case",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turetski/zpru_case.git"
+  },
+  "author": "5min_turetski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Turetski/zpru_case/issues"
+  },
+  "homepage": "https://github.com/Turetski/zpru_case#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browsersync": "0.0.1-security"
+  }
+}
