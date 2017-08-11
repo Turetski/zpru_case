@@ -1,6 +1,6 @@
 (function(){
     'use strict';
-    var queryBase= "https://api.zp.ru/v1/vacancies/?period=today&is_new_only=true&geo_id=826&limit=",
+    var queryBase= "git&limit=",
         vacancies=[],
         limit = 50;
 
@@ -53,7 +53,7 @@
             td.innerText=escapeHTML(arr[i].description);
             row.appendChild(td);
             td = document.createElement('td');
-            td.innerText=arr[i].count;
+            td.innerText=escapeHTML(arr[i].count);
             row.appendChild(td);
             table.appendChild(row);
         }
